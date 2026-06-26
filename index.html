@@ -1,178 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-  <title>Villa Aurora | Private Holiday Home in Finnish Lapland</title>
-  <meta name="description" content="Villa Aurora is a private holiday home in Finnish Lapland, available for short-term rental. Contact the owner directly for availability and booking enquiries." />
-
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      color: #1f2933;
-      background: #f7f5f0;
-    }
-
-    .hero {
-      min-height: 90vh;
-      background:
-        linear-gradient(rgba(0,0,0,.35), rgba(0,0,0,.45)),
-        url("https://images.unsplash.com/photo-1516483638261-f4dbaf036963?auto=format&fit=crop&w=1800&q=80")
-        center/cover no-repeat;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      text-align: center;
-      color: white;
-      padding: 30px;
-    }
-
-    .hero h1 {
-      font-size: 58px;
-      margin: 0 0 12px;
-      letter-spacing: 1px;
-    }
-
-    .hero p {
-      font-size: 22px;
-      margin: 0 0 30px;
-    }
-
-    .btn {
-      display: inline-block;
-      padding: 14px 28px;
-      border-radius: 999px;
-      background: white;
-      color: #1f2933;
-      text-decoration: none;
-      font-weight: bold;
-      margin: 8px;
-    }
-
-    section {
-      max-width: 1050px;
-      margin: auto;
-      padding: 70px 24px;
-    }
-
-    h2 {
-      font-size: 34px;
-      margin-bottom: 18px;
-    }
-
-    .intro {
-      font-size: 20px;
-      line-height: 1.7;
-      max-width: 850px;
-    }
-
-    .gallery {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-      gap: 16px;
-      margin-top: 30px;
-    }
-
-    .gallery img {
-      width: 100%;
-      height: 230px;
-      object-fit: cover;
-      border-radius: 14px;
-    }
-
-    .features {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-      gap: 16px;
-      margin-top: 35px;
-    }
-
-    .feature {
-      background: white;
-      padding: 24px;
-      border-radius: 14px;
-      box-shadow: 0 8px 25px rgba(0,0,0,.06);
-    }
-
-    .contact {
-      background: #172331;
-      color: white;
-      text-align: center;
-      max-width: none;
-    }
-
-    .contact h2 {
-      color: white;
-    }
-
-    footer {
-      text-align: center;
-      padding: 28px;
-      font-size: 14px;
-      background: #ebe7df;
-    }
-
-    @media (max-width: 700px) {
-      .hero h1 {
-        font-size: 40px;
-      }
-
-      .hero p {
-        font-size: 18px;
-      }
-    }
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Holiday Home</title>
+<link rel="stylesheet" href="style.css">
 </head>
-
 <body>
+<header class="hero">
+  <h1>Villa Aurora</h1>
+  <p>Private Holiday Home • Levi • Finnish Lapland</p>
+  <a href="#contact">Contact owner</a>
+</header>
 
-  <header class="hero">
-    <div>
-      <h1>Villa Aurora</h1>
-      <p>Private holiday home in Levi, Finnish Lapland</p>
-      <a class="btn" href="#contact">Contact owner</a>
-      <a class="btn" href="mailto:info@example.com">Email</a>
-    </div>
-  </header>
+<section>
+<h2>About the property</h2>
+<p>Replace this text with your own description.</p>
+</section>
 
-  <section>
-    <h2>Available for short-term holiday rental</h2>
-    <p class="intro">
-      Villa Aurora is a private holiday home in Finnish Lapland, offered for short-term stays throughout the year.
-      The property is suitable for guests looking for comfort, nature, privacy and an authentic Lapland experience.
-      For availability and booking enquiries, please contact the owner directly.
-    </p>
+<section>
+<h2>Gallery</h2>
+<div class="gallery">
+<img src="images/hero.jpg">
+<img src="images/photo1.jpg">
+<img src="images/photo2.jpg">
+<img src="images/photo3.jpg">
+</div>
+</section>
 
-    <div class="features">
-      <div class="feature"><strong>Location</strong><br>Levi, Finnish Lapland</div>
-      <div class="feature"><strong>Guests</strong><br>Up to 8 guests</div>
-      <div class="feature"><strong>Sauna</strong><br>Private sauna</div>
-      <div class="feature"><strong>Rental</strong><br>Short-term holiday rental</div>
-    </div>
-  </section>
+<section id="contact">
+<h2>Contact</h2>
+<p>Email: info@example.com</p>
+<p>WhatsApp: +358...</p>
+</section>
 
-  <section>
-    <h2>Photo impression</h2>
-    <div class="gallery">
-      <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80" alt="Lapland holiday home exterior">
-      <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80" alt="Lapland landscape">
-      <img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1200&q=80" alt="Finnish Lapland nature">
-      <img src="https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=1200&q=80" alt="Northern lights in Lapland">
-    </div>
-  </section>
-
-  <section id="contact" class="contact">
-    <h2>Contact the owner</h2>
-    <p>For availability, prices and booking enquiries, please contact the owner directly.</p>
-    <a class="btn" href="mailto:info@example.com">info@example.com</a>
-    <a class="btn" href="https://wa.me/31612345678">WhatsApp</a>
-  </section>
-
-  <footer>
-    Villa Aurora · Owned and operated by [Owner Name] · Finnish Lapland
-  </footer>
-
+<script src="script.js"></script>
 </body>
 </html>
